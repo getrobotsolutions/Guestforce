@@ -91,7 +91,7 @@ audio {
     padding:21px;
 
     width: 97%;
-    border: thick solid #d9534f;
+    border: thick solid #f2af4c;
     margin: 10px;
 }
 
@@ -162,6 +162,6 @@ audio {
 }
 .yellowcolor{
 
-    background-color: #d9534f;
+    background-color: #f2af4c;
     height: 40px;
 }
