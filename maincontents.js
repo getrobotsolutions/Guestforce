@@ -228,15 +228,15 @@ function OnJoystickControlled(strPara){
         SetHeadYaw(0,23);
     }
     if(btn_info[7] == '1'){
-        //SetHeadYaw(35, 23);
+        SetHeadYaw(35, 23);
         //window.external.PlaySpeech("Please check out our Title Tips of the Day.");
     }
     if(btn_info[8] == '1'){
-        //SetHeadYaw(0,23);
+        SetHeadYaw(0,23);
         //window.external.PlaySpeech("Would you like me to take a picture?");
     }
     if(btn_info[9] == '1'){
-        //SetHeadYaw(35, 23);
+        SetHeadYaw(35, 23);
         //window.external.PlaySpeech("Would you like to take a picture with me?");
     }
     
