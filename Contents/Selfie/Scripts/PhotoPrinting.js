@@ -110,16 +110,9 @@ function UpdateCamImage()
 var isPhotoTaken = false;
 function TakePhoto()
 {   
-    window.external.SetVolume(1);
-    if(readCookie("CurrentLanguage")=="English"){
-        window.external.ChangeLanguage("en-us");
-        PlaySpeech('Look at the camera on the top of the robots head');
-    }
-    else if(readCookie("CurrentLanguage")=="Spanish"){
-        window.external.ChangeLanguage("es-us");
-        PlaySpeech("Mira la cámara en la parte superior de la cabeza de los robots");
-
-    }
+    
+    PlaySpeech('Look at the camera on the top of the robots head');
+    
     isPhotoTaken = false;
     
     // 촬영 버튼 이미지 변경 & 숨김
@@ -257,8 +250,8 @@ function SendEmail()
     // 메일 전송에 필요한 정보
     var addr = message;
     //var addr = "paul@robotaisolutions.com";
-    var subject = "Your Photo from the Canon Robot";
-    var body = "Thank you for visiting the Canon Solutions America booth at SGIA show. Attached is your photo from the Canon Solutions America robot. For more information on Canon Products and Solutions Please visit www.csa.canon.com";
+    var subject = "Your Photo from the GuestForce Robot";
+    var body = "Thank you for visiting";
     //var mail_server = "smtp.gmail.com";
     //var mail_addr_sender = "ict.muscatairport@gmail.com";
     //var pswd = "123456789K";

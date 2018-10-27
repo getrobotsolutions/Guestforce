@@ -218,5 +218,33 @@ function OnJoystickControlled(strPara){
         SetVolume(1);
         window.external.PlaySpeech("Hey, want to dance with me?");        
     }
+    if(btn_info[4] == '1'){
+        SetHeadYaw(35, 23);       
+    }
+    if(btn_info[5] == '1'){
+       SetHeadYaw(-35,23);
+    }
+    if(btn_info[6] == '1'){
+        SetHeadYaw(0,23);
+    }
+    if(btn_info[7] == '1'){
+        //SetHeadYaw(35, 23);
+        //window.external.PlaySpeech("Please check out our Title Tips of the Day.");
+    }
+    if(btn_info[8] == '1'){
+        //SetHeadYaw(0,23);
+        //window.external.PlaySpeech("Would you like me to take a picture?");
+    }
+    if(btn_info[9] == '1'){
+        //SetHeadYaw(35, 23);
+        //window.external.PlaySpeech("Would you like to take a picture with me?");
+    }
+    
+    if(btn_info[10] == '1'){
+        SetHeadYaw(0, 23);
+    }
+    if(btn_info[11] == '1'){
+        SetHeadYaw(0,23);
+    }
     
 }
