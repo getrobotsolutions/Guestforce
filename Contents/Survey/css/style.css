@@ -126,3 +126,10 @@ background: #000;
     margin-top: 10px;
     text-align: center;
 }
+#form-submit{
+  background-color: #1577a1;
+  color: white;
+  padding: 10px 30px;
+  border: none;
+  font-size: 30px;
+}
