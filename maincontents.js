@@ -70,7 +70,7 @@ function FC_ContentsCall(strContentsName, strLanguage)
 
 function OnUserApproached()
 {
-    PlaySpeech("Hello, welcome to the event. Please press a button on my screen to begin.");
+    //PlaySpeech("Hello, welcome to the event. Please press a button on my screen to begin.");
 }
 
 
