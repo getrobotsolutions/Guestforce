@@ -251,7 +251,7 @@ function SendEmail()
     var addr = message;
     //var addr = "paul@robotaisolutions.com";
     var subject = "Your Photo from the GuestForce Robot";
-    var body = "Thank you for visiting";
+    var body = "Thank you for visiting the Guestforce booth at VRMA 2018. Attached is your photo from our robot.";
     //var mail_server = "smtp.gmail.com";
     //var mail_addr_sender = "ict.muscatairport@gmail.com";
     //var pswd = "123456789K";

@@ -12,6 +12,7 @@ body {
 min-height: 100vh;
 }
 h2.header-w3ls {
+  width:1080px;
   padding: 31px 0px 25px;
   font-size: 33px;
   text-align: center;
