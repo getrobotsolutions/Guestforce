@@ -25,30 +25,34 @@ function FC_ContentsCall(strContentsName, strLanguage)
         case "Home":
            location.href = "../../maincontents.htm";
             break;
-        case "Projects":
-            //PlaySpeech(speak[0]);
-            location.href = "Contents/Projects/index.html";
-            break;
-        case "Videos":
+        case "Demo":
             //PlaySpeech(speak[1]);
-            location.href = "Contents/Video/index.html";
+            location.href = "Contents/Demo/index.html";
             break;
+        case "Survey":
+            //PlaySpeech(speak[0]);
+            location.href = "Contents/Survey/index.html";
+            break;
+        
         case "Slot-machine":
             //PlaySpeech(speak[2]);
             location.href = "Contents/SlotMachine/index.html";
             break;
         
-
-        case "Selfie":
+        case "TakePhotos":
             //PlaySpeech(speak[6]);
-            location.href = "Contents/Selfie/index.html";
+            location.href = "Contents/TakePhotos/index.html";
+            break;
+        case "Selfie":
+            PlaySpeech(speak[6]);
+            location.href = "../../Contents/Selfie/index.html";
             break;
         case "Avatar":
-            //PlaySpeech(speak[7]);
-            location.href = "Contents/RobotAvatar/index.htm";
+            PlaySpeech(speak[7]);
+            location.href = "../../Contents/RobotAvatar/index.htm";
             break;
         case "Dance":
-            //PlaySpeech(speak[8]);
+            PlaySpeech(speak[8]);
             location.href = "Contents/Dance/index.html";
             break;
         case "Config":
@@ -196,25 +200,23 @@ function OnJoystickControlled(strPara){
     if(btn_info[0] == '1'){
             window.external.ChangeLanguage("en-us");
             SetVolume(1);
-            window.external.PlaySpeech("Come here please and touch my screen to win a prize.");//I'm here to assist you, press any button on my screen to begin");
-          
+            window.external.PlaySpeech("Hi! Come over and talk to me, check out this cool demo!");
     }
 
     if(btn_info[1] == '1'){
         window.external.ChangeLanguage("en-us");
         SetVolume(1);
-        window.external.PlaySpeech("Hi, I'm Tracey the tradeshow robot.  I can be rented for tradeshow and events.  Press a button on my screen to begin.");
-        
+        window.external.PlaySpeech("Checkout GuestForce, the whatever, whenever, wherever Experiential Technology!");   
     }
     if(btn_info[2] == '1'){
         window.external.ChangeLanguage("en-us");
             SetVolume(1);
-            window.external.PlaySpeech("I like you, you are cool.  Would you like to rent me? ");
+            window.external.PlaySpeech("Take a picture with me!");
     }
     if(btn_info[3] == '1'){
         window.external.ChangeLanguage("en-us");
         SetVolume(1);
-        window.external.PlaySpeech("Ha, ha.  That tickles.  Good luck on winning a great prize.");
-        
+        window.external.PlaySpeech("Hey, want to dance with me?");        
     }
+    
 }
