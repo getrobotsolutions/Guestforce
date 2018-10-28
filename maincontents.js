@@ -2,7 +2,7 @@
 
 
         speak[0] = "check out the guestforce experience";
-        speak[1] = "hear testimonials from trade show clients";
+        speak[1] = "By completing this survey and signing up with GuestForce at this show you qualify for a lifetime 5% bonus on the RevShare Program!";
         speak[2] = "spin the wheel for your chance to win great prizes";
         speak[3] = "Read a welcome message from our dean.";
         speak[4] = "Find out what classes you need for your major.";
@@ -30,7 +30,7 @@ function FC_ContentsCall(strContentsName, strLanguage)
             location.href = "Contents/Demo/index.html";
             break;
         case "Survey":
-            //PlaySpeech(speak[0]);
+            PlaySpeech(speak[1]);
             location.href = "Contents/Survey/index.html";
             break;
         

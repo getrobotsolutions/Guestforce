@@ -2,7 +2,7 @@
 //Redirects to homepage after 1 minute of not interaction
 //-----------------------------------------------------
 
-function redirect(){
+/*function redirect(){
     window.location.href = "../../maincontents.htm";
 }
 var initial=setTimeout(redirect,60000);
@@ -10,7 +10,7 @@ var initial=setTimeout(redirect,60000);
 $(document).click(function(event) {
     clearTimeout( initial );
     initial=setTimeout(redirect,60000);
-});
+});*/
 //-----------------------------------------------------
 
 function LanguageChange(lang)
@@ -111,7 +111,7 @@ var isPhotoTaken = false;
 function TakePhoto()
 {   
     
-    PlaySpeech('Look at the camera on the top of the robots head');
+    //PlaySpeech('Look at the camera on the top of the robots head');
     
     isPhotoTaken = false;
     
