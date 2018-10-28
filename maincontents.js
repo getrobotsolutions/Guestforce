@@ -219,7 +219,10 @@ function OnJoystickControlled(strPara){
         window.external.PlaySpeech("Hey, want to dance with me?");        
     }
     if(btn_info[4] == '1'){
-        SetHeadYaw(35, 23);       
+        SetVolume(1);
+        window.external.PlaySpeech("Vote for GuestForce at the Battleground Monday morning");
+        
+        //SetHeadYaw(35, 23);       
     }
     if(btn_info[5] == '1'){
        SetHeadYaw(-35,23);
