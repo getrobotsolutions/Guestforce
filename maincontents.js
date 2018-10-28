@@ -1,7 +1,7 @@
 ﻿var speak = new Array( );
 
 
-        speak[0] = "Take a look at our robot at some of our previous trade shows";
+        speak[0] = "check out the guestforce experience";
         speak[1] = "hear testimonials from trade show clients";
         speak[2] = "spin the wheel for your chance to win great prizes";
         speak[3] = "Read a welcome message from our dean.";
@@ -26,7 +26,7 @@ function FC_ContentsCall(strContentsName, strLanguage)
            location.href = "../../maincontents.htm";
             break;
         case "Demo":
-            //PlaySpeech(speak[1]);
+            PlaySpeech(speak[0]);
             location.href = "Contents/Demo/index.html";
             break;
         case "Survey":
